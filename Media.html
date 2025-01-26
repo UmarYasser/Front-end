@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Media Page</title>
+</head>
+<body>
+    <h1><u>Media Page</u></h1>    
+    <h2>HTML has several media features, like images, audio and videos</h2>
+    <h3>We add images using the tag &lt;img src=""&gt; and the image source from the directory</h3>
+    <p>We can add width and height property after "src=" to resize the image as we wish</p>
+    <p>Or add "alt", to display a message of the image if it doesn't load, it indicats what the image was about </p>
+    <p>and "title", to display text when the image is hovered on, try it on that picture.</p>
+    <img src="photo.PNG" width="100" title="Hi♥  from title property">
+    <hr>
+    <h3>Audio files are added using the tag &lt;audio ...&gt; and add some controls and/or alternative sources</h3>
+    <p>Audio Contorls include: "autoplay" for autoplaying the file one the page starts</p>
+    <p>"muted", always used for autoplay for better user experince</p>
+    <p>"loop" for repeating the file automatically</p>
+    <p>- We add alternative sources for a file to ensure that the browser supports at least one of them.<br> that means that if the browser doesn't support the 1st source it checks the 2nd and 3rd source to play the file.</p>
+    <p>Syntax:</p>
+    <pre><code>     &lt;audio controls loop muted>
+        &lt;source src="music.mp3" type="audio/mpeg">
+        &lt;source src="music.wav" type="audio/wav">
+        &lt;source src="music.ogg" type="audio/ogg">
+    &lt;/audio></code></pre>
+
+    <hr>
+    <h3>Video files are added similarly to audio files with the concept of alternative sources but has more options...</h3>
+    <p>Like "poster" which displays an image on the thumbnail of the video before it's played, which is set to an image source</p>
+    <p>Or "preload" which tells the browser how to load the file, which can be set to <br> 'none': don't load it at all <br> 'lazy': load it as the user plays it, which reduces the load time of the whole page <br> 'auto': load it all even after the user plays it</p>
+    <p>And "track" which are the subtitles. Takes 'kind= "subtitles"' 'src="example.vtt"' and label that corresponds to the language or the option that will be displayed to the user</p>
+    <pre>Syntax:
+        &lt;video controls muted width="100%" poster="img.jpg" preload="none">
+            &lt;source src="video.mp4" type="video/mp4">
+            &lt;source src="video.webm" type="video/webm">
+            &lt;source src="video.ogg" type="video/ogg">
+    
+            &lt;track default src="en.vtt" kind="subtitles" label="English">
+            &lt;track src="ar.vtt" kind="subtitles" label="Arabic">
+       &lt;/video>
+    </pre>
+    <hr>
+    <a href="index.html">Back to Home Page</a>
+</body>
+</html>

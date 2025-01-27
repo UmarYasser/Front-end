@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tables Page</title>
+</head>
+<body>
+    <h1><u>Tables Page</u></h1>
+    <h2>HTML features tables with simple implementaion and wide customization:</h2>
+    <h3><u>Structure:</u></h3>
+    <p>Table are made using &lt;table&gt; and &lt;tr&gt; for rows, &lt;td&gt; for columns and &lt;th&gt; for headers. </p>
+    <p>It has a few options like border inside &lt;table&gt; to make a frame around it and &lt;bgcolor&gt; for coloring the fields</p>
+    <p>It has options for header & footers to distingush it from table body and caption to describe a field</p>
+    <p>It supports merging cells using &lt;rowspan&gt; and &lt;colspan&gt; which will be illusterted in the syntax and example</p>
+    <h3><u>Syntax:</u></h3>
+    <pre>&lt;table border="1">
+
+        &lt;caption>
+Ranking of teams in the Champions League
+        &lt;/caption>
+
+        &lt;thead bgcolor="#7c7775">
+            &lt;tr>
+                &lt;th>Points&lt;/th>
+                &lt;th>Game&lt;/th>
+                &lt;th>Teams&lt;/th>
+                &lt;th>Arrangement&lt;/th>
+            &lt;/tr>
+        &lt;/thead>
+
+        &lt;tbody bgcolor="#b9b1ae">
+            &lt;tr>
+                &lt;td>18&lt;/td>
+                &lt;td>6&lt;/td>
+                &lt;td>Liverpool&lt;/td>
+                &lt;td>1&lt;/td>
+            &lt;/tr>
+            &lt;tr>
+                &lt;td>15&lt;/td>
+                &lt;td>6&lt;/td>
+                &lt;td>Barcelona&lt;/td>
+                &lt;td>2&lt;/td>
+            &lt;/tr>
+    
+        &lt;/tbody>
+
+        &lt;tfoot bgcolor="#b9b1ae">
+            &lt;td  align="right" colspan="4">Total&lt;/td>
+        &lt;/tfoot>
+    &lt;/table></pre>
+
+    
+    <h3><u>Example:</u></h3>
+    <table border="1">
+
+        <caption>
+Ranking of teams in the Champions League
+        </caption>
+
+        <thead bgcolor="#7c7775">
+            <tr>
+                <th>Points</th>
+                <th>Game</th>
+                <th>Teams</th>
+                <th>Arrangement</th>
+            </tr>
+        </thead>
+
+        <tbody bgcolor="#b9b1ae">
+            <tr>
+                <td>18</td>
+                <td>6</td>
+                <td>Liverpool</td>
+                <td>1</td>
+            </tr>
+            <tr>
+                <td>15</td>
+                <td>6</td>
+                <td>Barcelona</td>
+                <td>2</td>
+            </tr>
+        </tbody>
+
+        <tfoot bgcolor="#b9b1ae">
+            <td  align="right" colspan="4">Total</td>
+        </tfoot>
+    </table>
+    <p>*Syntax and Example are taken from Eng/Mahmoud Ashraf</p>
+    <hr>
+    <p align="center"><a href="index.html">Back to Home Page</a></p>
+</body>
+</html>

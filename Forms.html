@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms Page</title>
+</head>
+<body>
+    <header>
+        <h1><u>Forms Page</u></h1>
+    </header>
+    <h2>Forms are essential in any website using html, to get user info.</h2>
+    <h3>Forms are composed of inputs and submit button to send the info to a file or a back-end endpoint.</h3>
+    <p>Types of inputs include: text, number, email, password and telephone number and more. </p>
+    <p>Inputs take:<br>Id: if I want to attach something to it like &lt;label&gt;<br>name:The name of the value sent like: name:Umar<br>Type which has text, email, password, color, file, search, url or hidden fields that are filled by the website.<br>And &lt;placeholder&gt; to display what the field is about. </p>
+    <p>Inputs can be in a form of <u>textarea</u> where input is a large text, or <u>select & option</u> where input is chosen from a list of options</p>
+    <p>---------------</p>
+    <p>---------------</p>
+    <p>Forms takes method and action attribute;<br>-Method to specify the http request like  GET or POST request which differs in their behavior like:<br>GET exposes the info in the URL while POST doesn't.<br>Action tells the form where to send the info at, either be a file or a back-end API</p>
+    <p>Froms can take before the input tags &lt;fieldset&gt; which puts all the input in a frame and &lt;legend&gt; to display text on the top of the frame</p>
+    <p>Syntax:</p>
+    <pre>&lt;form method="post">
+        &lt;fieldset>
+            &lt;legend>Form&lt;/legend>
+        &lt;div>
+            &lt;label for="text">user name&lt;/label>
+            &lt;input id="text" type="text" value="text" required name="user name"> 
+        &lt;/div>
+        &lt;br>
+        &lt;div>
+            &lt;label for="password">password&lt;/label>
+            &lt;input id="password" type="password" placeholder="Click here to type your Password" required name="password">
+        &lt;/div>
+        &lt;br>
+        &lt;div>
+        &lt;input type="submit" value="Send">
+        &lt;/fieldset&gt;
+&lt;/form&gt;
+    </pre>
+
+<h3>Example:</h3>
+<form method="post">
+    <fieldset>
+        <legend>Form</legend>
+    <div>
+        <label for="text">user name</label>
+        <input id="text" type="text" value="text" required name="user name"> 
+    </div>
+    <br>
+    <div>
+        <label for="password">password</label>
+        <input id="password" type="password" placeholder="Click here to type your Password" required name="password">
+    </div>
+    <br>
+    <div>
+    <input type="submit" value="Send">
+    </div>
+    <br>
+    <div>
+        <label for="color">color</label>
+        <input id="color" type="color">
+    </div>
+    <br>
+    <div>
+        <label for="file">file</label>
+        <input id="file" type="file">
+    </div>
+    <br>
+    <div>
+        <label for="range">range</label>
+        <input id="range" type="range" min="0" max="10" step="1" value="5">
+    </div>
+    <br>
+    <div>
+        <label for="number">number</label>
+        <input id="number" type="number" min="0" max="30" step="1">
+    </div>
+    <br>
+    <div>
+        <label for="file">file</label>
+        <input id="file" type="file">
+    </div>
+    <br>
+    <div>
+        <label for="search">search</label>
+        <input id="search" type="search">
+    </div>
+    <br>
+    <div>
+        <label for="url">url</label>
+        <input id="url" type="url">
+    </div>
+    <br>
+    <div>
+        <label for="hidden">hidden</label>
+        <input id="hidden" type="hidden">
+    </div>    
+    </fieldset>
+</form>
+<p>*Syntax and Example are taken from Eng/Mahmoud Ashraf</p>
+<hr>
+    <p align="center"><a href="index.html">Back to Home Page</a></p>
+
+</body>
+</html>

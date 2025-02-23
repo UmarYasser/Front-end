@@ -1,0 +1,76 @@
+div.circle{
+    width:100px;
+    height:100px;
+    background-color: brown;
+    border-radius:50%;
+    box-shadow: 10px 10px 10px   black
+}
+
+div.UnoCard{
+    width:100px;
+    height:150px;
+    background-color: rgb(240, 61, 61);
+    border-radius: 50px 0px;
+    position:relative;
+/* Two values:
+top-lft&btm-right top-right&btm-lft   */
+}
+
+p.uno{
+    text-align:center;
+}
+
+div#align{
+    width:400px;
+    border: solid;
+}
+h2#leftAlign{
+    text-align:left;
+}
+h2#centerAlign{
+    text-align:center;
+}
+
+h2#rightAlign{
+    text-align:right;
+}
+
+div#dir{
+    width:200px;
+    direction: rtl;
+    /* * */
+}
+
+p.transform{
+ text-transform:uppercase;
+}
+
+p.cap{
+ text-transform:capitalize;
+}
+
+p.rest{
+    text-decoration-line:underline;
+    text-decoration: wavy;
+}
+
+p#decorated{
+    text-decoration:wavy brown  line-through;
+    font-size:  20px;
+}
+
+p#font{
+    /* Font: style varient weight (size)/lineWeight (family) */
+    /* () => Required */
+    font: italic normal bolder 20px   sans-serif;
+    
+    /* font-family:; */
+}
+/* 
+    Font Varient
+    Font Weight
+    Font Inhertance 
+*/
+h1#inherit{
+    font-weight: inherit;
+}

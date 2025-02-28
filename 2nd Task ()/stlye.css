@@ -1,0 +1,10 @@
+div#ProfileCard{
+    background: linear-gradient(to top, rgba(119, 40, 40, 0.541),transparent);
+    padding: 10px;
+    border-style: double;
+    border-color: black;
+    border-width: 7px;
+    width:fit-content;
+    height:fit-content;
+    margin: auto;
+}

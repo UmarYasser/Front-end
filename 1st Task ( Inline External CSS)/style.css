@@ -1,0 +1,15 @@
+h1{
+    color: blue;
+}
+
+p.imp{
+    color:yellow;
+}
+p#urgent{
+    color:red
+}
+
+div > p > strong{
+    font-style: italic;
+    color:darkgreen
+}

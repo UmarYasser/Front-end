@@ -1,0 +1,67 @@
+div.circle{
+    border-radius: 50%;
+    width:100px;
+    height:100px;
+    background-color: burlywood;
+    box-shadow: 20px 10px 20px -10px;
+    text-align: center;
+}
+
+div.UnoCard{
+    width: 100px;
+    height: 150px;
+    background-color: rgb(111, 165, 29);
+    border-radius: 0px 40px 0px 40px;
+    box-shadow: 20px 20px 20px -20px;
+    left:100px;
+    border-style: solid;
+    border-color: white;
+
+}
+
+
+div#align{
+    width:350px;
+    height:fit-content;
+    border:solid;
+    background-color: grey;
+}
+
+h3#left{
+    text-align:left;
+    padding:5px
+}
+
+h3#center{
+    text-align:center;
+    padding:5px
+}
+
+h3#right{
+    text-align:right;
+    padding:5px
+}
+
+div#dir{
+    width:200px;
+    direction:rtl;
+    border: solid;
+    padding-right:10px;
+
+}
+
+p.transform{
+    text-transform: uppercase;
+}
+
+p.cap{
+    text-transform: capitalize;
+}
+
+p#decorated{
+    text-decoration: rgb(196, 138, 64) wavy underline;
+    text-shadow: 10px 10px 10px rgb(63, 31, 31);
+    direction: rtl;
+    text-align: center;
+    text-transform: uppercase;
+}

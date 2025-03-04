@@ -7,43 +7,7 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-
-    <!-- 
-    <h3>Border Radius & Box Shadow</h3>
-    <div class="circle"></div>
-    <div class="UnoCard">
-            <p class="uno">uno</p>
-    </div> -->
-
-    <!-- <h3>Inline Example: All in the same line despite being on different elements.</h3>
-    <span>1st span</span>
-    <span>2nd span</span>
     
-    <h3>Block Example: Every element is on its line.</h3>
-    <p>1st p</p>
-    <p>2nd p</p>
-    <hr>
-    <div id="align">
-        <p>The parent is &lt;div&gt;</p>
-        <h2 id="leftAlign">Left of parent</h2>
-        <h2 id="centerAlign">Center of parent</h2>
-        <h2 id="rightAlign">Right of parent</h2>
-    </div>
-    <hr>
-    <p>For text starting with arabic</p>
-    <div id="dir">
-       <p>مرحبا umar</p>
-    </div>
-    <p>مرحبا umar</p>
-    <p class="transform"> Written in lowercase</p>
-    <p class="cap"> capitalize every 1st letter</p>
-    -->
-    <p id="decorated">Decorated</p>
-    <p id=font>Font Shorthand</p>
-    <hr>
-    <h1>Normal h1</h1>
-    <div>
-        <h1 id="inherit">h1 Font Inheritence from &lt;div&gt;</h1>
-    </div>
+    
 </body>
 </html>

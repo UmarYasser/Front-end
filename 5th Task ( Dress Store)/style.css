@@ -1,0 +1,61 @@
+body{
+    background-image: url(bg6.png);
+
+}
+
+div#Welcome{
+    background:linear-gradient(rgb(127, 158, 109),transparent);
+    border: solid rgba(72, 65, 65, 0.932);
+    height: 80px;
+}
+
+div#background{
+    /* background-image: url(bg.png);
+    background-repeat: repeat-x; */  
+    height: 150px;
+    /* Background Shorthand:
+     color-image path repeat pos/size origin; */
+    /* background: grey url(bg.png) repeat center padding-box;
+     */
+     background-image: linear-gradient(to top,grey,transparent);
+     display: block;
+}
+
+div#radial{
+    background-image: radial-gradient(circle,green,transparent);
+    height: 60px;
+    display: block;
+}
+
+
+div#overflow{
+
+    overflow: auto;
+    width:80px;
+    background-color: green;
+    border:solid red ;
+}
+
+div.product{
+    font: italic normal  600 30px sans-serif;
+    font-family:serif;
+    border:solid grey;
+    width:fit-content;
+    height: fit-content;
+}
+
+/* 1-Background, 2-Linear Gradient, 
+    3- Radial Gradient, 4-Float, 5-Overflow
+ */
+h2{
+    font-size:40px;
+    font-family:monospace
+}
+h4{
+     font-family:monospace
+}
+
+img{
+    width:250;
+    height:250;
+}

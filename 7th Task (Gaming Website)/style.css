@@ -1,0 +1,154 @@
+body{
+    background-image: url(bg2.png);
+}
+
+
+h1{
+    background-image: radial-gradient(#0080008a,#00000095);
+    height: 50px;
+    position:relative;
+    text-align: center;
+    color:rgb(3, 4, 2);
+    height:auto;
+}
+
+div#NameInput{
+    background-color: #19641993;
+    width:fit-content;
+    padding:5px;
+}
+
+
+
+h1::before{
+    content:'';
+    background-color: rgba(0, 0, 0, 0.651);
+    color: rgb(32, 85, 32);
+    width:20px;
+    height: 100%;
+    position:absolute;
+    top:0;
+    left:0;
+}
+
+h1::after{
+    content:'';
+    background-color: rgba(0, 0, 0, 0.651);
+    color: rgb(32, 85, 32);
+    width:20px;
+    height: 100%;
+    position:absolute;
+    top:0;
+    right:0;
+}
+
+h1:hover{
+    /* background-image: radial-gradient(#00000095,#0080008a); */
+    transition:  2s ease-in-out;
+    transform: rotateX(180deg);
+}
+
+.game{
+    width:190px;
+    height: fit-content;
+    background-color: rgb(21, 90, 44);
+    text-align: center;
+
+    border-radius: 20px;
+    padding-top: 1px;
+    padding: 3px;
+    position:relative;
+}
+
+
+.game::before{
+    content:'';
+    width:90%;
+    height:10px;
+    border-radius: 20px;
+
+    background-color: black;
+    position:absolute;
+    left:10px;
+    top:1px;
+}
+
+.game:hover{
+    transform: rotateY(30deg);
+    transition: 1s;
+}
+
+h3{
+    padding:2px;
+    margin:4px;
+}
+
+h3 + p::first-line{
+    color:darkolivegreen;
+}
+
+h3::first-letter{
+    font-size: 2em;
+}
+
+a:visited{
+    color:chartreuse;
+}
+
+a:active{
+    color:rgb(128, 91, 23);
+}
+
+a:link{
+    color:rgb(55, 112, 81);
+
+}
+
+input:required{
+    background-color:#ff00006e
+}
+
+input:disabled{
+    background-color:#910d3b6e
+}
+
+
+input:focus{
+    background-color:#26aa266e
+}
+
+
+button{
+    background-color: greenyellow;
+    border-color: rgb(63, 95, 13);
+    border-width: 5px;
+}
+
+div#About{
+    background-color:greenyellow ;
+    position:relative;
+    text-align: center;
+}
+
+div#About::before{
+    content:' ';
+    background-color:rgb(0, 128, 122);
+    width:15px;
+    height: 100%;
+    position:absolute;
+    top:0;
+    left:0;
+    display:block
+
+}
+
+/* Pseudo Classes: (:)
+| Hover	 +
+| Visited & Active & Link +
+| Required & Invalid & Valid
+| Focus & Disabled & Enabled    	
+| Checked
+----
+Pseudo Elements: (::)
+| First Line & First Letter +
+| Selection & Before & After + */

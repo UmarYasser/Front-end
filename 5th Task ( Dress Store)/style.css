@@ -6,7 +6,9 @@ body{
 div#Welcome{
     background:linear-gradient(rgb(127, 158, 109),transparent);
     border: solid rgba(72, 65, 65, 0.932);
-    height: 80px;
+    height: 100px;
+    width:max-content;
+
 }
 
 div#background{

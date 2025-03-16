@@ -1,0 +1,84 @@
+body{
+    background-image: url(bg.png);
+}
+
+
+#parent{
+    display:grid;
+    background-color:rgb(61, 60, 58);
+    padding:15px;
+    gap: 10px 10px;
+    grid-template-rows:repeat(5,100px) ;
+    grid-template-columns:repeat(6,auto) ;
+    /* justify-content: center; */
+    grid-template-areas:
+    "head head head head head head"
+    "left centre centre centre centre centre"
+    "left centre centre centre centre centre"
+    "left centre centre centre centre centre"
+    "footer footer footer footer footer footer";
+}
+
+
+h2#u::first-letter{
+    font-size:2em;
+    background-color: brown;
+}
+
+
+#parent #Header{
+    grid-column: 1/-1;
+    text-align: center;
+    align-items: center;
+    display:flex;
+    justify-content: center;
+    grid-area: head;
+}
+
+
+#parent #Left{
+    text-align: center;
+    grid-row:2/5;
+    grid-column:1/2;
+    /* display:flex; */
+    /* justify-content: center; */
+    /* align-items: center; */
+    grid-area: left;
+}
+
+img.cent{
+    display:flex;
+    flex: 1 1 150px;
+    min-width: 150px;
+    max-width: 300px;
+    height:auto;
+}
+
+#parent #Centre{
+    text-align: center;
+    grid-column:2/-1;
+    grid-row:2/5;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow:row wrap;
+    grid-area: centre;
+
+
+}
+
+
+#parent #Footer{
+    text-align: center;
+    grid-column: 1/-1;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    grid-area: footer;
+}
+
+#parent div{
+    background-image: radial-gradient(80% 80%,rgb(63, 133, 133),rgb(78, 65, 47));
+    padding: 5px;
+}
+
